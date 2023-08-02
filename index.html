@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Affine Cipher Encryption/Decryption Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="script.js" />
+</head>
+
+<body>
+    <h2>Affine Cipher Encryption/Decryption Generator</h2>
+
+    <label for="input">Input Text:</label>
+    <textarea id="input" rows="4" cols="50"></textarea>
+
+    <label for="keyA">Key A:</label>
+    <input type="number" id="keyA" />
+
+    <label for="keyB">Key B:</label>
+    <input type="number" id="keyB" />
+
+    <button onclick="encrypt()">Encrypt</button>
+    <button onclick="decrypt()">Decrypt</button>
+    <button onclick="reset()">Reset</button>
+
+    <label for="output">Output Text:</label>
+    <textarea id="output" rows="4" cols="50" readonly></textarea>
+</body>
+
+</html>
