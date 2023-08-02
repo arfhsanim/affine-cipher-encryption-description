@@ -6,27 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Affine Cipher Encryption/Decryption Generator</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="script.js" />
+    <script src="script.js"></script>
 </head>
 
 <body>
-    <h2>Affine Cipher Encryption/Decryption Generator</h2>
+    <section class="body">
 
-    <label for="input">Input Text:</label>
-    <textarea id="input" rows="4" cols="50"></textarea>
+        <h2 class="title-of-content">Affine Cipher Encryption/Decryption Generator</h2>
 
-    <label for="keyA">Key A:</label>
-    <input type="number" id="keyA" />
+    <h3 for="input">Input Text:</h3>
+    <textarea class="text-area" id="input" rows="4" cols="50" placeholder="Enter your text"></textarea>
 
-    <label for="keyB">Key B:</label>
-    <input type="number" id="keyB" />
+    <h3 for="keyA">Key A:</h3>
+    <input class="text-area" type="number" id="keyA" placeholder="First key"> 
 
+    <h3 for="keyB">Key B:</h3>
+    <input class="text-area" type="number" id="keyB" placeholder="Second key"> 
+<div class="btn">
     <button onclick="encrypt()">Encrypt</button>
-    <button onclick="decrypt()">Decrypt</button>
+    <button  onclick="decrypt()">Decrypt</button>
     <button onclick="reset()">Reset</button>
+</div>
+    
 
-    <label for="output">Output Text:</label>
-    <textarea id="output" rows="4" cols="50" readonly></textarea>
+    <h3 for="output">Output Text:</h3>
+    <textarea class="text-area" id="output" rows="4" cols="50" readonly></textarea>
+    
+</section>
+    
 </body>
 
 </html>

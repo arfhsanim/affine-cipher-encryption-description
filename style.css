@@ -1,33 +1,35 @@
-body {
+.body {
     font-family: Arial, sans-serif;
+ margin: 200px ;
+    border:solid rgb(100, 154, 20) 2px ;
+    border-radius: 5px;
+    padding: 50px 50px ;
+    display: block;
 }
-
-h2 {
+.title-of-content{
     text-align: center;
+    
 }
 
-label {
-    font-weight: bold;
-}
 
-textarea, input[type="number"] {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-}
+.text-area{
+    border:solid rgb(0, 0, 0) 2px;
+    border-radius: 5px;
+    height: 30px;
 
-button {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: #fff;
+}
+button{
+    
+    display: block;
+    margin-top: 10px;
+    height: 30px;
+    width: 80px;
+    color: white;
+    background-color: rgb(100, 154, 20);
     border: none;
-    cursor: pointer;
+    border-radius: 5px;
 }
-
-button:hover {
-    background-color: #45a049;
-}
-
-#output {
-    height: 80px;
+.btn{
+display: block;
+justify-content: center;
 }
