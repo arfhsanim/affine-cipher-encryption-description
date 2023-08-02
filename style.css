@@ -20,7 +20,7 @@
 }
 button{
     
-    display: block;
+  
     margin-top: 10px;
     height: 30px;
     width: 80px;
@@ -30,6 +30,6 @@ button{
     border-radius: 5px;
 }
 .btn{
-display: block;
-justify-content: center;
+ 
+align-items: center;
 }
