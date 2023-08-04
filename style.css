@@ -1,6 +1,6 @@
-.body {
+.container {
     font-family: Arial, sans-serif;
- margin: 200px ;
+
     border:solid rgb(100, 154, 20) 2px ;
     border-radius: 5px;
     padding: 50px 50px ;
@@ -32,4 +32,14 @@ button{
 .btn{
  
 align-items: center;
+}
+@media screen and (max-width: 576px) {
+    .text-area{
+        border:solid rgb(0, 0, 0) 2px;
+        border-radius: 5px;
+        height: 30px;
+        width: 70%;
+    }
+    
+
 }
